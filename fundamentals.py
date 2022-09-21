@@ -4,7 +4,7 @@ boolean= True
 array_string = ['Javascript','SQL','Mariadb','Python']
 array_num = [22,44,66,88]
 for word in array_string:
-    print(word)
+    print('This is one of the language ,',word)
 for num in array_num:
     print( 'Look at this number',num)
 
