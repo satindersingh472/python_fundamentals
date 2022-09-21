@@ -10,7 +10,7 @@ for num in array_num:
         print( 'Look at this number',num)
 
 def static_greeting():
-    print('satinder')
+    print('hello satinder')
 
 def dynamic_greeting(name):
     print('hello',name)
@@ -37,3 +37,30 @@ else:
 
 static_greeting()
 dynamic_greeting('simran')
+
+# def find_treasure(arg1):
+#     if(arg1 == 'treasure'):
+#         return True
+#     else:
+#         return False
+
+# treasure_array = ['treasure','Not treasure','treasure','Not treasure']
+# for treas in treasure_array:
+#     is_treas = find_treasure(treas)
+#     if(is_treas):
+#         print('there is a treasure')
+#     else:
+#         print('No treasure')
+
+def find_treasure(treasure_array):
+    for treasures in treasure_array:
+        if(treasures == 'treasure'):
+            print('There is actually a treasure')
+        else:
+            print('NO treasure here')
+
+treasure_array = ['man treasure','not a treasure']
+find_treasure(treasure_array)
+
+treasure_array = ['treasure','yes treasure']
+find_treasure(treasure_array)
