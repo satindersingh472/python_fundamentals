@@ -55,12 +55,15 @@ dynamic_greeting('simran')
 def find_treasure(treasure_array):
     for treasures in treasure_array:
         if(treasures == 'treasure'):
-            print('There is actually a treasure')
-        else:
-            print('NO treasure here')
+            print('There is a treasure')
+            return True
 
-treasure_array = ['man treasure','not a treasure']
+    print('No Treasure')
+    return False
+
+
+treasure_array = ['man treasure','treasure']
 find_treasure(treasure_array)
 
-treasure_array = ['treasure','yes treasure']
+treasure_array = ['No treasure','yes treasure']
 find_treasure(treasure_array)
