@@ -1,4 +1,4 @@
-number= 110
+number= 50
 string='hello! world!!'
 boolean= True
 print(number)
@@ -15,3 +15,5 @@ elif(number>=0 and boolean == False):
     print('Positive and False')
 elif(number>100 or boolean == True):
     print('Large and True')
+else:
+    print("I don't know")
