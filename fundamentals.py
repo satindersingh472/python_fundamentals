@@ -6,7 +6,8 @@ array_num = [22,44,66,88]
 for word in array_string:
     print('This is one of the language ,',word)
 for num in array_num:
-    print( 'Look at this number',num)
+    if( num > 50):
+        print( 'Look at this number',num)
 
 print(number)
 print(string)
